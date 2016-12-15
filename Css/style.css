@@ -4,23 +4,23 @@
     @-webkit-viewport {
         width: device-width;
     }
-    
+
     @-moz-viewport {
         width: device-width;
     }
-    
+
     @-ms-viewport {
         width: device-width;
     }
-    
+
     @-o-viewport {
         width: device-width;
     }
-    
+
     @viewport {
         width: device-width;
     }
-    
+
     body {
         font-family: 'Open Sans', Arial, Tahoma, FontAwesome;
         ;
@@ -32,7 +32,7 @@
     /*******************************************
 CONTAINER
 *******************************************/
-    
+
     .container {
         margin-top: 80px;
         margin-bottom: 15px;
@@ -41,11 +41,11 @@ CONTAINER
     /*******************************************
 PHOTO (AVATAR)
 *******************************************/
-    
+
     #photo-header {
         margin-top: -75px;
     }
-    
+
     #photo {
         width: 160px;
         height: 160px;
@@ -55,13 +55,13 @@ PHOTO (AVATAR)
         background: #ededed;
         display: inline-block;
     }
-    
+
     #photo img {
         width: 150px;
         height: 150px;
         border-radius: 50%;
     }
-    
+
     #text-header h1 {
         margin: 0;
         padding: 0;
@@ -70,22 +70,22 @@ PHOTO (AVATAR)
         text-transform: uppercase;
         letter-spacing: -1px;
     }
-    
+
     #text-header h1::first-line {
         font-size: 1.5em;
         letter-spacing: -4px;
         font-weight: 800;
         line-height: 1.5em;
     }
-    
+
     #text-header h1 span {
         color: #F0563D;
     }
-    
+
     #text-header h1 sup {
         opacity: 0.5;
     }
-    
+
     #text-header:after {
         width: 100%;
         height: 3px;
@@ -97,23 +97,23 @@ PHOTO (AVATAR)
     /*******************************************
 DEFAULT BOX
 *******************************************/
-    
+
     .box {
         margin-bottom: 15px;
     }
-    
+
     .box h2 {
         color: #EC7263;
         font-size: 1.8em;
         font-weight: 700;
         text-transform: uppercase;
     }
-    
+
     .box h2:before {
         content: '//';
         margin-right: 5px;
     }
-    
+
     .box p {
         font-size: 1.3em;
         line-height: 1.5em;
@@ -121,14 +121,14 @@ DEFAULT BOX
     /*******************************************
 EDUCATION
 *******************************************/
-    
+
     #education {
         margin-top: 20px;
         position: relative;
         padding: 1em 0;
         list-style: none;
     }
-    
+
     #education:before {
         width: 5px;
         height: 100%;
@@ -146,14 +146,14 @@ EDUCATION
         background: linear-gradient(to bottom, #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
     }
-    
+
     #education li {
         width: 100%;
         z-index: 2;
         position: relative;
         float: left;
     }
-    
+
     #education .year {
         width: 10%;
         background: #fff;
@@ -162,7 +162,7 @@ EDUCATION
         font-weight: 700;
         display: inline-block;
     }
-    
+
     #education .description {
         width: 80%;
         display: inline-block;
@@ -172,7 +172,7 @@ EDUCATION
         padding: 10px 10px 0 10px;
         border-bottom: 1px solid #ddd;
     }
-    
+
     #education .description:after {
         content: '';
         position: absolute;
@@ -186,14 +186,14 @@ EDUCATION
         border-width: 8px;
         pointer-events: none;
     }
-    
+
     #education .description h3 {
         font-size: 1.6em;
         margin: 0;
         padding: 0;
         font-weight: 700;
     }
-    
+
     #education .description p {
         font-size: 1.3em;
         margin-top: 5px;
@@ -202,26 +202,26 @@ EDUCATION
     /*******************************************
 EXPERIENCES
 *******************************************/
-    
+
     .job {
         margin-bottom: 15px;
     }
-    
+
     .job .where {
         font-size: 1.4em;
         font-weight: bold;
     }
-    
+
     .job .year {
         font-size: 1.3em;
         opacity: 0.7;
     }
-    
+
     .job .profession {
         font-size: 1.6em;
         font-weight: bold;
     }
-    
+
     .job .description {
         font-size: 1.3em;
         line-height: 1.5em;
@@ -229,27 +229,27 @@ EXPERIENCES
     /*******************************************
 CONTACT
 *******************************************/
-    
+
     .contact-item {
         width: 100%;
         float: left;
     }
-    
+
     .contact-item .icon {
         padding: 10px;
         border-right: 1px solid #aaa;
         border-bottom: 1px solid #aaa;
         opacity: 0.2;
     }
-    
+
     .contact-item:last-child .icon {
         border-bottom: none;
     }
-    
+
     .contact-item .fa {
         font-size: 2em;
     }
-    
+
     .contact-item .title {
         width: 80%;
         width: calc(100% - 55px);
@@ -257,11 +257,11 @@ CONTACT
         font-weight: 700;
         opacity: 0.9;
     }
-    
+
     .contact-item .title.only {
         margin-top: 10px;
     }
-    
+
     .contact-item .description {
         width: 80%;
         width: calc(100% - 55px);
@@ -271,7 +271,7 @@ CONTACT
     /*******************************************
 SKILLS
 *******************************************/
-    
+
     .item-skills {
         height: 30px;
         background: #F0563D;
@@ -284,12 +284,12 @@ SKILLS
         font-size: 1.3em;
         font-weight: 600;
     }
-    
+
     .skills-legend {
         margin-top: 20px;
         opacity: 0.8;
     }
-    
+
     .skills-legend:before {
         width: 100%;
         height: 3px;
@@ -299,7 +299,7 @@ SKILLS
         margin-bottom: -13px;
         background: #c6c6c6;
     }
-    
+
     .skills-legend div {
         width: 25%;
         display: inline-block;
@@ -307,7 +307,7 @@ SKILLS
         color: #a9a9a9;
         float: left;
     }
-    
+
     .legend:before {
         width: 3px;
         height: 10px;
@@ -318,50 +318,50 @@ SKILLS
         margin-bottom: 15px;
         background: #c6c6c6;
     }
-    
+
     .legend-left.legend:before {
         margin-left: 0;
     }
-    
+
     .legend-right.legend:before {
         margin-right: 0;
     }
-    
+
     .legend-left:nth-child(2) span {
         margin-left: -25px;
     }
-    
+
     .legend-right:nth-child(3) span {
         margin-right: -20px;
     }
-    
+
     .legend-right {
         text-align: right;
     }
     /*******************************************
 LANGUAGES
 *******************************************/
-    
+
     #language-skills .skill {
         font-size: 1.3em;
         margin: 10px 0;
         padding-bottom: 10px;
         border-bottom: 1px solid #eee;
     }
-    
+
     #language-skills .skill .icons {
         width: 111px;
         height: 14px;
         background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG8AAAAOCAIAAACuD9XIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAD8SURBVHja7JexDYQgFIY5vVgZK2Nl4QCOxQgMwARO4AY6AqUDmGhcAAcggd4rSM5LAOWO7h5/Ce99f/IDAdBh07IsUsojWNA4CTKklBrHcZ5nFCaAHEuauo4xppQKcQXISczgGWOfbT8vIEBOYg1eK2QZYXIenPO+7z1ZlFLX1L7vkZN2XVeW5bZtt6WEkCzLXLNFUUROSimtquq2gRCS5/k1LnJSvcmvG3wsfYz/nnPeQk3TWEvbtvW0jJwzTSGEtXpd169uPcic+zT1IyvcFQLnaVZjjOu6RghN06RfqkII/0MBmvP+sQ/DwDk3f/KucZcgc14AAAD//wMAuHv2xUKfpgMAAAAASUVORK5CYII=') no-repeat;
     }
-    
+
     #language-skills .skill .icons-red {
         background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG8AAAAOCAIAAACuD9XIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAC3SURBVHja7JexDQMhDEWfsiQjMQrKJLQZge5ui58qCYU5QUj38+UK7GfJBixQqFp06Acy4xD5Hkoo1+2cdpyomjULRNptox+HuPAgNtvoyGFQeHbbaMlBqt32teXrPH8OknSUCdeJftpzmAuYvhreHCYCFl8ZYw7xtOotle+nnhmHiec2r449W86Nt85GrAcnCzLmdNVsL+8qJCRqBuBOW8nqzPkc5JIU/hFG6yMZc54AAAD//wMAefEHQWaFXjkAAAAASUVORK5CYII=') no-repeat;
     }
     /*******************************************
 HOBBIES
 *******************************************/
-    
+
     .hobby {
         color: #fff;
         display: inline-block;
@@ -372,7 +372,7 @@ HOBBIES
         position: relative;
         font-size: 1.2em;
     }
-    
+
     .hobby:before {
         content: "\f004";
         font-family: FontAwesome;
@@ -385,31 +385,31 @@ HOBBIES
     /*******************************************
 MEDIA
 *******************************************/
-    
+
     @media (min-width: 500px) {
         #education .description {
             width: 85%;
         }
     }
-    
+
     @media (min-width: 768px) {
         #education .description {
             width: 85%;
         }
     }
-    
+
     @media (min-width: 992px) {
         #education .description {
             width: 87%;
         }
     }
-    
+
     @media (min-width: 1200px) {
         #education .description {
             width: 90%;
         }
     }
-    
+
     .fa-expand,
     .fa-compress {
         cursor: pointer;
@@ -418,29 +418,29 @@ MEDIA
      .whyJelielH2 {
         cursor: pointer;
     }
-    
+
     .smallExp {
         color: #999;
         font-size: 10.4px;
         margin-bottom: 5px
     }
-    
+
     .aWhy {
         color: black
     }
     /* Icon when the collapsible content is hidden */
-    
+
     .aWhy.collapsed::after {
         font-family: FontAwesome;
         content: "\f0da";
     }
     /* Icon when the collapsible content is shown */
-    
+
     .aWhy::after {
         font-family: FontAwesome;
         content: "\f0d7";
     }
-    
+
     .coracao {
         font-family: FontAwesome;
         content: "\f004" ;
@@ -458,4 +458,9 @@ MEDIA
 
     .hand{
         cursor: pointer;
+    }
+
+    .filtro_imagens{
+       border: 2px solid rgba(240,105,66, 1);
+
     }
