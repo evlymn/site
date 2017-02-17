@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <title>Summernote</title>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script> 
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
+</head>
+<body>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+<script>
+ var config = {
+    apiKey: "AIzaSyD2S94XhS9ODk03WXlbvEe2PKB5zno8EGo",
+    authDomain: "lifesite-4a90a.firebaseapp.com",
+    databaseURL: "https://lifesite-4a90a.firebaseio.com",
+    storageBucket: "lifesite-4a90a.appspot.com",
+    messagingSenderId: "339541469524"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script>
+var postHtml = '';
+function getHtml(){
+    postHtml = $('#summernote').summernote('code');
+    savePost();
+}
+function savePost(){
+    alert(postHtml);
+}
+ 
+</script>
+<div class="container">
+<h3>Postagem vida</h3>
+<div class="row">
+    <div class="c">
+  <div id="summernote"><p>Nova postagem</p></div>
+  <script>
+    $(document).ready(function() {
+        $('#summernote').summernote({
+            height: 300
+        });
+    });
+  </script>
+  <div>
+      <button onclick="getHtml();" class="btn btn-block">Salvar</button>
+  </div>
+    </div>
+  </div>
+</div> 
+</body>
+    
+</html>

@@ -1,0 +1,193 @@
+//ano
+//titulo
+//subTitulo
+//data
+//local
+//texto
+//comentario
+[
+    {
+        "id": 1,
+        "data": "2017-02-01T00:00:00.000Z",
+        "titulo": "Fiz o que a muito tempo já gostaria de ter feito!!!!",
+        "subtitulo": "",
+        "local": "Elisa Tattoo/Poa",
+        "texto": "<p class=\"text-left\"> Para nunca esquecer meus filhotes lindos!!!<3</p><pclass=\"text-center\"><iframesrc=\"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjelielmendes%2Fvideos%2F10212338491801169%2F&show_text=0&width=400\"width=\"60%\" height=\"400\" style=\"border:none;overflow:hidden\" scrolling=\"no\"frameborder=\"0\" allowTransparency=\"true\" allowFullScreen=\"true\"></iframe><imgclass=\"filtro_imagens\" src=\"imagens/tattoo.jpg\" style=\"width:60%\" alt=\"Tattoo\" /></p>"
+    },
+    {
+        "id": 2,
+        "data": "2017-01-01T00:00:00.000Z",
+        "titulo": "Iniciando o ano com uma mega, super notícia!!",
+        "subtitulo": "",
+        "local": "TransENEM/Poa",
+        "texto": "<p class=\"text-left\"> Quem disse que esse espaço não é dela? <br />Quem disse que as universidades não são de pessoas trans? <br />Não interessa mais! Nós estamos aqui dizendo exatamente o contrário. <br /> Esse espaço é seu, Tayze! Esse espaço pode ser de todas as pessoas trans! Parabéns, garota! <br />A UFRGS vai ser pequena pra tanto CLOSE e LACRE dessa mulher maravilhosa. <br /> #VaiTerTRANSnaUFRGS </p> <p class=\"text-center\"> <a target=\"_blank\" href=\"http://transenem.org\"> <img class=\"filtro_imagens\" src=\"imagens/memetayze.jpg\" style=\"width:60%\" alt=\"Tayze Duarte\" /> </a> </p>"
+    },
+    {
+        "id": 3,
+        "data": "2016-12-01T00:00:00.000Z",
+        "titulo": "Rails Girls Floripa 2016",
+        "subtitulo": "",
+        "local": "Resultados Digitais/Florianópolis",
+        "texto": "<p><b>Evento muito amor!! Adorei conhecer as gurias<br> Espero encontrá-las novamente e como colegas de TI   <i class=\"fa fa-heart\" aria-hidden=\"true\"></i></b> </br> <p class=\"text-center\">                                            <a target=\"_blank\" href=\"https://www.linkedin.com/pulse/rails-girls-floripa-2016-3-jeliel-mendes\"> <img class=\"filtro_imagens\" src=\"imagens/railsgirlsfloripa2016.jpg\" style=\"width:60%\" alt=\"Rails Girls Floripa\" /></a> <br> <br> <a target=\"_blank\" href=\"https://www.linkedin.com/pulse/rails-girls-floripa-2016-3-jeliel-mendes\"> <img class=\"filtro_imagens\" src=\"imagens/railsgirlsfloripa2016palestrando.jpg\" style=\"width:60%\" alt=\"Rails Girls Floripa palestrando\" /> </a> <br></p>"
+    },
+    {
+        "id": 4,
+        "data": "2016-10-01T00:00:00.000Z",
+        "titulo": "VII Trans Day NIGS/EGSS",
+        "subtitulo": "",
+        "local": "Trans Day/UFCSPA",
+        "texto": "<p><b>Adorei participar! <i class=\"fa fa-heart\" aria-hidden=\"true\"></i></b> </br> Conheci pessoas incríveis! </br> Mas também vi que temos muita luta, muito a descontruir e muito a evoluir ainda! 💪💪</p> <p class=\"text-center\"> <a href=\"https://www.facebook.com/transdaynigsufsc/\" target=\"_blank\"> <img class=\"filtro_imagens\" src=\"imagens/transday.png\" style=\"width:60%\" alt=\"Trans Day\" /></a> <br> <br> <a href=\"imagens/transdaycertirficado_thumb.jpg\" target=\"_blank\"> <img class=\"filtro_imagens\" src=\"imagens/transdaycertirficado_thumb.jpg\" style=\"width:60%\" alt=\"Certificado\" /> </a> <br> </p>"
+    },
+    {
+        "id": 5,
+        "data": "2016-08-01T00:00:00.000Z",
+        "titulo": "ThoughtWorks - Software Consultant",
+        "subtitulo": "",
+        "local": "ThoughtWorks",
+        "texto": "<p><b>Pensa em algu&#233;m feliz!?!?!</b></p> <p class=\"text-center\"> <img src=\"imagens/fototw.png\" class=\"filtro_imagens\" style=\"width:60%\"  /> </p>"
+    },
+    {
+        "id": 6,
+        "data": "2016-08-01T00:00:00.000Z",
+        "titulo": "Trans <i style=\"color:#363636\" class=\"fa fa-transgender-alt\" aria-hidden=\"true\"></i>ENEM <i style=\"color:#55CDFC\" class=\"fa fa-heart\" aria-hidden=\"true\"></i> <i style=\"color:#F7A7BA\" class=\"fa fa-heart\" aria-hidden=\"true\"></i><i style=\"color:#FFFFFF\" class=\"fa fa-heart\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "TransEnem/Poa",
+        "texto": " <p><b>Agora faço parte da organização do TransENEM!!!</b></p> <p> Muito feliz com esse novo desafio!!! \\o/ </p>"
+    },
+    {
+        "id": 7,
+        "data": "2016-04-01T00:00:00.000Z",
+        "titulo": "Trans <i style=\"color:#363636\" class=\"fa fa-transgender-alt\" aria-hidden=\"true\"></i>ENEM <i style=\"color:#55CDFC\" class=\"fa fa-heart\" aria-hidden=\"true\"></i> <i style=\"color:#F7A7BA\" class=\"fa fa-heart\" aria-hidden=\"true\"></i><i style=\"color:#FFFFFF\" class=\"fa fa-heart\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "IFRS",
+        "texto": " <p><b>Cursinho popular gratuito em Porto Alegre para mulheres travestis e pessoas trans (binárias e não binárias)</b></p> <p> Me preparando para fazer ENEM no fim do ano, uma vez eu tinha certeza do que faria, Análise de Sistemas, mas agora com a pressão das professoras de história para eu fazer história, e depois do papo com a profe de sociologia dizendo que eu deveria fazer sociologia, já nem sei mais! rsrs <br /> </p> <p class= \"comentario \"> Sabe aquele lugar que você se sente bem, acolhida, aonde todos te respeitam, te entendem, e principalmente não te julgam? <br /> Um lugar aonde você sente que criou laços de amizades para o resto a vida? <br /> Esse lugar existe pra mim, ele se chama <span> <i  class= \"fa fa-heart \" aria-hidden= \"true \"></i> Trans<i  class= \"fa fa-transgender-alt \" aria-hidden= \"true \"></i>ENEM!! <i  class= \"fa fa-heart \" aria-hidden= \"true \"></i></span> <br /></p>"
+    },
+    {
+        "id": 8,
+        "data": "2013-07-01T00:00:00.000Z",
+        "titulo": "Desenvolvimento para Android <i class=\"fa fa-android\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Sisnema",
+        "texto": " <p style=\"padding:20px\"> <i class=\"fa fa-quote-left\" aria-hidden=\"true\"></i> Apesar do curso ter deixado a desejar em muitos aspectos, serviu para dar um norte nos estudo de android e java mobile. <br> </p>"
+    },
+    {
+        "id": 9,
+        "data": "2013-06-01T00:00:00.000Z",
+        "titulo": "Desenvolvimento para iOS <i class=\"fa fa-apple\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Sisnema",
+        "texto": " <p><b> SS3049 - Desenvolvimento para iOS - iPhone e iPad (40 horas) </b> </p> <p style=\"padding:20px\"> <i class=\"fa fa-quote-left\" aria-hidden=\"true\"></i> Curso muito proveitoso, até                                            mesmo porque eu não tinha muito conhecimento sobre objective-c e o ambiente do XCode. <br /> O professor, Filipe Kellerman tinha um ótimo conhecimento e soube passá-lo muito bem. </p>"
+    },
+    {
+        "id": 10,
+        "data": "2011-03-01T00:00:00.000Z",
+        "titulo": " Inglês <i class=\"fa fa-language\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "CCAA",
+        "texto": " <p>Curso de Inglês, 3 módulos . </p>"
+    },
+    {
+        "id": 11,
+        "data": "2010-11-01T00:00:00.000Z",
+        "titulo": " Analysis Services <i class=\"fa fa-cube\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Sisnema",
+        "texto": "<p><b>MS6234 - Implementing and Maintaining MS SQL Server 2008 Analysis Services (24horas)</b></p> <p> O curso aborda como usar as ferramentas de desenvolvimento do Analysis Services para criar um banco de dados Analysis Services e um cubo OLAP, e como usar o gerenciamento de serviços de análise e ferramentas administrativas para gerenciar uma solução Analysis Services. </p>"
+    },
+    {
+        "id": 12,
+        "data": "2010-10-01T00:00:00.000Z",
+        "titulo": "Reporting Services <i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Sisnema",
+        "texto": "<p><b>MS6236 - Implementing and Maintaining MS SQL Server 2008 Reporting Services (24horas)</b></p> <p>O curso aborda como usar as ferramentas de desenvolvimento Reporting Services para criar relatórios, e como usar a gestão Reporting Services e as ferramentas administrativas para gerenciar uma solução Reporting Services.</p>"
+    },
+    {
+        "id": 13,
+        "data": "2010-08-01T00:00:00.000Z",
+        "titulo": "Integration Services <i class=\"fa fa-exchange\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Sisnema",
+        "texto": "<p><b>MS6235 - Implementing and Maintaining MS SQL Server 2008 Integration Services (24horas)</b></p> <p>O curso discute como desenvolver, implantar e gerenciar pacotes do Integration Services.</p>"
+    },
+    {
+        "id": 14,
+        "data": "2008-02-01T00:00:00.000Z",
+        "titulo": "Gestão de Tecnologia da Informação <i class=\"fa fa-book\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Unisul EAD",
+        "texto": " <p style=\"padding:20px\"> <i class=\"fa fa-quote-left\" aria-hidden=\"true\"></i> Iniciei o segundo semestre, porém por problemas financeiros e descontentamento com a metodologia que aplicavam desisti do curso <br /> Hoje fazendo uma análise, vejo que deveria ter feito um esforço continuado. </p>"
+    },
+    {
+        "id": 15,
+        "data": "2004-03-01T00:00:00.000Z",
+        "titulo": "1<sup>o</sup> Simpósio Latino Americano de Segurança MS <i class=\"fa fa-comments-o\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Microsoft",
+        "texto": " <p> Com duração de 16 horas foram abordados vários assuntos e temas relacionados a segurança, principalmente no ambiente de trabalho</p>"
+    },
+    {
+        "id": 16,
+        "data": "2002-11-01T00:00:00.000Z",
+        "titulo": "Windows 2000 <i class=\"fa fa-server\" aria-hidden=\"true\">",
+        "subtitulo": "",
+        "local": "Senac",
+        "texto": " <p><b>Windows 2000 Server Administrator</b> </p>"
+    },
+    {
+        "id": 17,
+        "data": "2002-11-01T00:00:00.000Z",
+        "titulo": "Manutenção <i class=\"fa fa-wrench\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Senac",
+        "texto": " <p><b>Manutenção de hardware e software</b> </p>"
+    },
+    {
+        "id": 18,
+        "data": "2002-10-01T00:00:00.000Z",
+        "titulo": "ASP 3 <i class=\"fa fa-code\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Senac",
+        "texto": " <p><b>Programação ASP Modulo II</b> </p>"
+    },
+    {
+        "id": 19,
+        "data": "2002-10-01T00:00:00.000Z",
+        "titulo": "ASP 3 <i class=\"fa fa-code\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Senac",
+        "texto": " <p><b>Programação ASP Modulo II</b> </p>"
+    },
+    {
+        "id": 20,
+        "data": "2002-02-01T00:00:00.000Z",
+        "titulo": "Tcp-IP <i class=\"fa fa-terminal\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Senac",
+        "texto": " <p>Curso oferecido a todos os funcionários da RBS para aprimorar o relacionamento com os clientes internos e externos </p>"
+    },
+    {
+        "id": 21,
+        "data": "2002-06-01T00:00:00.000Z",
+        "titulo": "Javascript para web <i class=\"fa fa-code\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Senac",
+        "texto": " <p> - Funções <br /> - Uso de Frames <br /> - Modificações do ambiente do browser <br /> - Formulários <br /> - Imagem-Objeto <br /> - Camadas <br /> - Drag and drop <br /> </p>"
+    },
+    {
+        "id": 22,
+        "data": "2002-05-01T00:00:00.000Z",
+        "titulo": " Modelagem de dados <i class=\"fa fa-database\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Senac",
+        "texto": " <p> <b> MS Access 2000/Modelagem de dados - Módulo III </b> <br /> <br /> - Modelagem lógica de sistemas <br /> - Método de projeto entidade-relacionamento <br /> - A abordagem relacional e o model ER<br /> - Modelagem prática de dados </p>"
+    },
+    {
+        "id": 22,
+        "data": "2002-04-01T00:00:00.000Z",
+        "titulo": "Visual Basic <i class=\"fa fa-code\" aria-hidden=\"true\"></i>",
+        "subtitulo": "",
+        "local": "Senac",
+        "texto": " <p> <b> Visual Basic - Módulo II </b> <br /> <br /> - Arquitetura de ambiente gráfico <br /> - Input de teclado e mouse <br /> - Icones, cursor de tela, menus e controles <br /> - Caixas de dialogos e bitmaps <br /> - Formulários <br /> - Criando menus <br /> - Controles <br /> - MDI <br /> - gráfico, figuras e desenhos <br /> - Acesso a banco de dados <br /> - Controles VBX <br /> - DDE/OLE <br /> - Construção de help <br /> - Etica e trabalho <br /> - Negociação para o trabalho em equipe                                        <br /> - Qualidade em prestações de serviço </p>"
+    }
+]
