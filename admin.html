@@ -1,56 +1,178 @@
 <html lang="en">
+
 <head>
- <meta charset="UTF-8">
-  <title>Summernote</title>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Postagem</title>
+
+
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script> 
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
   <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css" rel="stylesheet">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
+
+    <link rel="stylesheet" href="Css/style.css">
+
+   
+
+    <script src="https://use.fontawesome.com/9ca832a819.js"></script>
 </head>
+
 <body>
-
-<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
-<script>
- var config = {
-    apiKey: "AIzaSyD2S94XhS9ODk03WXlbvEe2PKB5zno8EGo",
-    authDomain: "lifesite-4a90a.firebaseapp.com",
-    databaseURL: "https://lifesite-4a90a.firebaseio.com",
-    storageBucket: "lifesite-4a90a.appspot.com",
-    messagingSenderId: "339541469524"
-  };
-  firebase.initializeApp(config);
-</script>
-
-<script>
-var postHtml = '';
-function getHtml(){
-    postHtml = $('#summernote').summernote('code');
-    savePost();
-}
-function savePost(){
-    alert(postHtml);
-}
- 
-</script>
-<div class="container">
-<h3>Postagem vida</h3>
-<div class="row">
-    <div class="c">
-  <div id="summernote"><p>Nova postagem</p></div>
+  <style>
+    .row {
+      padding-bottom: 10px;
+    }
+  </style>
+  <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
   <script>
-    $(document).ready(function() {
-        $('#summernote').summernote({
-            height: 300
-        });
+    var config = {
+      apiKey: "AIzaSyD2S94XhS9ODk03WXlbvEe2PKB5zno8EGo",
+      authDomain: "lifesite-4a90a.firebaseapp.com",
+      databaseURL: "https://lifesite-4a90a.firebaseio.com",
+      storageBucket: "lifesite-4a90a.appspot.com",
+      messagingSenderId: "339541469524"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+
+
+  <script>
+    function getHtml() {
+      if ($('#summernote').summernote('code').trim() == '') {
+        alert('no no!!!');
+      }
+      return $('#summernote').summernote('code');
+    }
+
+    function getTitulo() {
+      return $('#titulo').val();
+    }
+    function getData() {
+      return $('#data').val();
+    }
+
+    function getLocal() {
+      return $('#local').val();
+    }
+
+
+    function clearForm() {
+      $('#titulo').val('')
+      $('#data').val('');
+      $('#local').val('');
+      $('#summernote').summernote('code', '');
+    }
+    function savePost() {
+
+      var vida = {
+        titulo: getTitulo(),
+        post: getHtml(),
+        data: getData() + 'T00:00:00.000Z',
+        local: getLocal(),
+        dataHora: new Date().toUTCString()
+      };
+      firebase.database().ref().child("vida").push(vida);
+      clearForm();
+    }
+
+
+    firebase.database().ref("vida").orderByValue().on("value", function (snapshot) {
+
+      document.getElementById('listaVidas').innerHTML = '';
+      snapshot.forEach(function (item) {
+        
+          var li = $('<li></li>');
+          var ano = new Date(item.val().data).getFullYear();
+          var mes = new Date(item.val().data).getMonth();
+          var divAno = $('<div class="year pull-left">'+ano+' </div>')
+             li.append(divAno);
+             alert(li.html());
+      var divPost =$('<div class="description pull-right"></div>');
+      divPost.append($('<h3>'+item.val().titulo+'</h3>'))
+
+      divPost.append($('<h3> <small class="pull-right"> '+mes +'/'+ano +' - <b>'+item.val().local+'</b></small> </h3>'));
+                       divPost.append($("<br />"))              
+                                      divPost.append($(item.val().post));
+                                   
+                     li.append(divPost)   ;             
+                                 
+
+
+
+        // var li = document.createElement('li');
+        // var divTitulo = document.createElement('div');
+        // var divLocal = document.createElement('div');
+        // var divData = document.createElement('div');
+        // var divPost = document.createElement('div');
+        // var divDataHora = document.createElement('div');
+        // divDataHora.appendChild(document.createTextNode(item.val().dataHora));
+        // li.appendChild(divDataHora);
+        // divTitulo.appendChild(document.createTextNode(item.val().titulo));
+        // li.appendChild(divTitulo);
+        // divLocal.appendChild(document.createTextNode(item.val().local));
+        // li.appendChild(divLocal);
+        // divData.appendChild(document.createTextNode(item.val().data));
+        // li.appendChild(divData)
+
+        // divPost.innerHTML = item.val().post;
+        // li.appendChild(divPost);
+        $("#listaVidas").append(li);
+      });
+    });
+
+    $(document).ready(function () {
+      $("#postButton").click(function () {
+        savePost();
+      });
     });
   </script>
-  <div>
-      <button onclick="getHtml();" class="btn btn-block">Salvar</button>
-  </div>
+  <div class="container">
+    <h3>Cursos, educação, vida...</h3>
+    <div class="row">
+      <div class="col-sm-12">
+        <input type="text" required class="form-control" id="titulo" placeholder="Título"></input>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <input type="text" class="form-control" id="local" placeholder="Local"></input>
+      </div>
+      <div class="col-sm-6">
+        <input type="date" required class="form-control" id="data" placeholder="Data"></input>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="summernote">
+          <p>Nova postagem</p>
+        </div>
+        <script>
+          $(document).ready(function () {
+            $('#summernote').summernote({
+              height: 300
+            });
+          });
+        </script>
+      </div>
+
+    </div>
+    <div>
+      <button id="postButton" class="btn btn-block">Salvar</button>
+    </div>
+    <div>
+      <ul  class="clearfix" id="listaVidas">
+
+
+      </ul>
     </div>
   </div>
-</div> 
+  </div>
+  </div>
 </body>
-    
+
 </html>
